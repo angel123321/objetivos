@@ -35,7 +35,7 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
     if (tempoFinal > 0){
-    let contador = ' ';
+        let contador = ' ';
     contador += '<div class="contador-digito">';
         contador += '   <p class="contador-digito-numero">'+dias+'</p>';
         contador += '   <p class="contador-digito-texto">dias</p>';
